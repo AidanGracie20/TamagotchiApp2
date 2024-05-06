@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/fbutton2"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#FBB147"
+        android:text="Feed"
+        android:textColor="#040303"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <ProgressBar
+        android:id="@+id/progressbarf"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#0B0A0A"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressTint="#B5C6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.784" />
+
+    <Button
+        android:id="@+id/bbutton2"
+        android:layout_width="124dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#B4C7D6"
+        android:text="Back"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="262dp"
+        android:layout_height="555dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687"
+        app:srcCompat="@drawable/red_panda_eating_8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="320dp"
+        android:layout_height="441dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/playing_panda_edit" />
+
+    <Button
+        android:id="@+id/pbutton2"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#FAB046"
+        android:text="Play"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <ProgressBar
+        android:id="@+id/progressbarp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:progressTint="#B6CAD5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798" />
+
+    <Button
+        android:id="@+id/bbutton3"
+        android:layout_width="124dp"
+        android:layout_height="79dp"
+        android:backgroundTint="#B5C9D6"
+        android:text="Back"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+</androidx.constraintlayout.widget.ConstraintLayout>
